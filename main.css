@@ -1,0 +1,417 @@
+h1{font-family: "Butterfly Kids", cursive;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+}
+
+.bluestar{
+    display:flex;
+    position:absolute;
+    left:65%;
+    top: 5px;
+
+
+}
+
+button{ 
+    background-color:rgb(215, 223, 175);
+    font-family:"Cedarville Cursive", cursive ;
+    color:rgb(58, 67, 110);
+    font-size: 50px;
+    position: absolute;
+    left: 40%;
+    top: 900px;
+    border-radius: 20%;
+    width: 310px;
+    height:100px;
+    z-index: -1000;   
+}
+.laufey1{
+    display:flex;
+    position:absolute;
+    left:80%;
+    top: 20%;
+
+}
+
+.laufey2{
+    display:flex;
+    position:absolute;
+    left:80%;
+    top: -10%
+}
+
+.laufey3{
+    display:flex;
+    position:absolute;
+    left:80%;
+    top: 880px;
+}
+
+/* star2 below */
+.star2{
+    position:absolute;
+    left:5%;
+    top: 30%;
+}
+
+.star2{
+    display:block;
+    transition: transform 0.3s ease;
+}
+
+.star2full{
+    position:absolute;
+    left:5%;
+    top:30%;
+}
+
+.star2:hover {
+  transform: scale(2.5);
+}
+
+.star2text{
+    position:absolute;
+    right:100%;
+    top:80px;
+    transform:translateY(-50%);
+    margin-right:-300px;
+    font-family:"Cedarville Cursive", cursive; 
+    color: rgb(215, 223, 175);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.star2text{
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.star2full:hover .star2text{
+    opacity:1;
+    visibility:visible;
+}
+
+.star2text span{
+    display:block;
+}
+
+
+/* star22 below */
+.star22{
+     position:absolute;
+    left:25%;
+    top: 60%;
+}
+
+.star22{
+    display:block;
+    transition: transform 0.3s ease;
+}
+
+.star22full{
+    position:absolute;
+    left:25%;
+    top:60%;
+}
+
+.star22:hover {
+  transform: scale(2.5);
+}
+
+.star22text{
+    position:absolute;
+    right:110%;
+    top:80%;
+    transform:translateY(-50%);
+    margin-right:-300px;
+    font-family:"Cedarville Cursive", cursive; 
+    color: rgb(215, 223, 175);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+.star22text{
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.star22full:hover .star22text{
+    opacity:1;
+    visibility:visible;
+}
+
+.star22text span{
+    display:block;
+}
+
+/* star1 below */
+.star1{
+    position:absolute;
+    left:25%;
+    top: 19%;
+}
+
+.star1{
+    display:block;
+    transition: transform 0.3s ease;
+}
+
+.star1full{
+    position:absolute;
+    left:25%;
+    top:19%;
+}
+
+.star1:hover {
+  transform: scale(2.5);
+}
+
+.star1text{
+    position:absolute;
+    right:100%;
+    top:90%;
+    transform:translateY(-50%);
+    margin-right:-300px;
+    font-family:"Cedarville Cursive", cursive; 
+    color: rgb(215, 223, 175);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.star1text{
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.star1full:hover .star1text{
+    opacity:1;
+    visibility:visible;
+}
+
+.star1text span{
+    display:block;
+}
+
+/*star3 below */
+.star3{
+    position:absolute;
+    left:87%;
+    top: 68%;
+}
+
+.star3{
+    display:block;
+    transition: transform 0.3s ease;
+}
+
+.star3full{
+    position:absolute;
+    left:87%;
+    top:68%;
+}
+
+.star3:hover {
+  transform: scale(2.5);
+}
+
+.star3text{
+    position:absolute;
+    right:100%;
+    top:50%;
+    transform:translateY(-50%);
+    margin-right:70px;
+    font-family:"Cedarville Cursive", cursive; 
+    color: rgb(215, 223, 175);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.star3text{
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.star3full:hover .star3text{
+    opacity:1;
+    visibility:visible;
+}
+
+.star3text span{
+    display:block;
+}
+
+
+
+  
+ /* star23 below */   
+
+.star23{
+    display:block;
+    transition: transform 0.3s ease;
+}
+
+.star23full{
+    position:absolute;
+    left:28%;
+    top:550px;
+}
+
+.star23:hover {
+  transform: scale(2.5);
+}
+
+.star23text{
+    position:absolute;
+    right:100%;
+    top:50%;
+    transform:translateY(-50%);
+    margin-right:70px;
+    font-family:"Cedarville Cursive", cursive; 
+    color: rgb(215, 223, 175);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.star23text{
+    opacity:0;
+    visibility:hidden;
+    transition:opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.star23full:hover .star23text{
+    opacity:1;
+    visibility:visible;
+}
+
+.star23text span{
+    display:block;
+}
+
+
+
+
+.albums{
+    display:grid;          
+    grid-template-columns: 1fr 1fr;
+    gap:40px;
+    margin-top:1400px;      
+    margin-bottom:40px; 
+    left:40%;
+    justify-items:center;    
+}
+
+.albumtext{
+   
+    display:grid;          
+    grid-template-columns: 1fr 1fr;
+    gap:40px;
+    margin-top:30px;      
+    margin-bottom:40px; 
+    justify-items:center; 
+}
+.albumtext a{
+     color:rgb(135, 189, 210);
+     font-family:"Cedarville Cursive", cursive;
+}
+
+
+.border{
+    position:absolute;
+    left:50%;
+    top: 800px;
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding-bottom:100px;
+}
+
+ul {
+  position: fixed;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+  margin: 20px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  color:rgb(161, 220, 243);
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  transition: .5s;
+  z-index: 1;
+}
+
+ul li a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid rgb(161, 220, 243);
+  border-bottom: 2px solid  rgb(161, 220, 243);
+  transform: scaleY(2);
+  opacity: 0;
+  transition: .3s;
+}
+
+ul li a:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(161, 220, 243);
+  transform: scale(0);
+  opacity: 0;
+  transition: .3s;
+  z-index: -1;
+}
+
+ul li a:hover {
+  color: #fff;
+}
+
+ul li a:hover:before {
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+ul li a:hover:after {
+  transform: scaleY(1);
+  opacity: 1;
+}
